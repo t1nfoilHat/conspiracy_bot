@@ -1,0 +1,26 @@
+# Leave out .zip file
+*.zip
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pyenv
+.python-version
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+.pdm.toml
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Remove my personal content
+*people.json
+*fish_greeting.py
+*config.yml
+
